@@ -9,7 +9,7 @@ name = "_tiktoken"
 crate-type = ["cdylib"]
 
 [dependencies]
-pyo3 = { version = "0.22.2", default-features = false, features = ["extension-module", "macros"] }
+pyo3 = { version = "0.24.1", default-features = false, features = ["extension-module", "macros"] }
 
 # tiktoken dependencies
 fancy-regex = "0.13.0"
